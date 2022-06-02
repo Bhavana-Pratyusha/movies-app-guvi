@@ -1,5 +1,23 @@
-.App {
-  text-align: center;
+ .App { 
+  /* text-align: center; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
+  justify-items: center;
+} 
+
+
+
+.moviedetails{
+  width: 450px;
+}
+.moviesPoster{
+  height: 750px;
+  width: 450px;
+  /* object-fit: contain;   */
+}
+
+.mvisname{
+  margin: 0;
 }
 
 .App-logo {
